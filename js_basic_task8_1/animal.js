@@ -1,7 +1,7 @@
 // Створити клас Animal. Додати до нього властивості color, name, type. Та методи sayHello та run. 
 // Реалізацію методів зробіть будь яку, але логічну.
 
-export class Animal {
+export default class Animal {
     constructor(color, name, type) {
         this.color = color;
         this.name = name;
